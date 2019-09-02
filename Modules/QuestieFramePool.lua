@@ -360,7 +360,7 @@ function _QuestieFramePool:Questie_Tooltip(self)
                         if icon.data.Type == "complete" then
                             dat.type = "(已完成)";
                         else
-                            dat.type = "(可接受)";
+                            dat.type = "(可接取)";
                         end
                         dat.title = icon.data.QuestData:GetColoredQuestName()
                         dat.subData = icon.data.QuestData.Description
